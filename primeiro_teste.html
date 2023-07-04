@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h1> A convenção que usaremos para criar nosso programa é adotar letras minúsculas e não usar acentos e, claro, usar a extensão .html.</h1>
+ <br>
+<p>Outro ponto importante é que toda alteração feita no arquivo .html deve ser salva e, além disso, o navegador precisa recarregar a página para que a última alteração do arquivo entre em vigor.
+</p>
+
+<script>
+document.write("eu nasci em"+(2023-33)+"<br>");
+document.write("james nasceu em"+(2023-38)+"<br>");
+
+</script>
+
+<meta charset="UTF-8">
+
+<script>
+
+    document.write("Flávio tem " + (2016 - 1977) + " anos");
+    document.write("<br>");
+    document.write("Joaquim tem " + (2016 - 1996) + " anos");
+    document.write("<br>");
+    document.write("Barney tem " + (2016 - 1976) + " anos");
+    document.write("<br>");
+
+</script>
+
+<script>
+var ano = 2016; 
+document.write("flavio tem")+(ano-1977);
+document.write("<br>");
+document.write("eu tenho")+(ano-1990)
+document.write("<br>");
+
+ano = 2023; 
+document.write("flavio tem"+(ano-1977)+" anos");
+document.write("<br>");
+document.write("eu tenho"+(ano-1990)+" anos");
+document.write("<br>");
+</script>
+
+
+<script>
+    var n = 3;
+    document.write("O resultado da fórmula é : " + n * (10 / 20)  );
+    document.write("<br>");
+</script>
+
+<script>
+    
+    document.write("a media das idades eh" + (39+20+41)/3);
+    document.write("<br>");
+
+var media = (39+20+41)/3;
+
+    document.write("a media das idades eh" + media);
+    document.write("<br>");
+
+    document.write("a media das idades eh" + Math.round(media));
+    document.write("<br>");  
+    
+    var flavio = 39;
+    var Joaquim = 20;
+    var Barney = 41;
+
+    document.write("a media das idades eh" + Math.round((flavio+Joaquim+Barney)/3));
+
+
+</script>
+
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+
+var tanque = 40;
+
+var caminhoComGasolina = 480;
+var consumoDeGasolina = caminhoComGasolina/tanque;
+
+var caminhoComAlcool = 300;
+var consumoDeAlcool = caminhoComAlcool/tanque;
+
+document.write("O consumo de Gasolina é " + consumoDeGasolina + " km/L");
+
+document.write("<br>");
+
+document.write("O consumo de Álcool é " + consumoDeAlcool + " km/L");
+
+</script>
+<script>
+//funcoes
+
+function pulaLinha (){
+    document.write("<br>");
+}
+pulaLinha();
+document.write("minha idade eh " +(2023-1990));
+pulaLinha();
+document.write("meu aniversario eh semana que vem");
+
+
+</script>
+<h2>teste</h2>
+
+<script>
+    //funcoes
+    function mostra(ola){
+        document.write(ola);
+        pulaLinha();
+    }
+
+
+    mostra("fernando idade eh " +(2023-1996));
+ 
+    mostra("seu aniversario eh semana que vem");
+    
+    
+    </script>
+
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function exibeTitulo(titulo) {
+        document.write("<h1>" + titulo + "</h1>");
+        pulaLinha();
+    }
+
+    function exibeParagrafo(paragrafo) {
+        document.write("<p>" + paragrafo + "</p>");
+        pulaLinha();
+    }
+
+    // pede para alguém ler daqui em diante e veja se ele entende o que esta sendo feito
+    exibeTitulo("Bem-vindos");
+    exibeParagrafo("Este é um simples programa");
+</script>
+
+<meta charset="UTF-8">
+
+<script>
+
+var carlosIdade=18;
+var anaIdade=15;
+
+function pulaLinha() {
+document.write("<br><br>");
+}
+
+function texto(texto1) {
+    document.write(texto1);
+    pulaLinha();
+}
+
+texto("Nossa diferença de idade é "+ (carlosIdade-anaIdade) +" anos");
+texto("sou mais nova ");
+
+</script>
+
+<h4> mais exercicios</h4>
+
+<script>
+
+function pulaLinha() {
+document.write("<br>");
+}
+
+function exercicios(exer) {
+    document.write(exer);
+    pulaLinha();
+}
+
+var anoBrasil=1500;
+var anoHoje=2023;
+var geracoes=((anoBrasil-anoHoje)/28);
+
+
+exercicios("hoje ja se passaram" + Math.round(geracoes) +"desda descoberta do Brasil");
+
+</script>
+
+<meta charset="UTF-8">
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+  var idadeMediaQuandoTemFilhos = 28;
+  var anoAtual = 2016;
+  var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+  mostra(quantidadeDeGeracoes);
+</script>
+<h1> Mais um exercicio</h1>
+
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha() {
+    document.write("<br><hr><br>");
+}
+
+function mostra(frase) {
+    document.write("<big>"+frase+"</big>");
+    pulaLinha();
+}
+
+var ano = 2019;
+mostra("Eu nasci em : " + (ano - 25));
+mostra("Adriano nasceu em : " + (ano - 26));
+mostra("Paulo nasceu em : " + (ano - 32));
+
+</script>
+
+</body>
+</html>
+

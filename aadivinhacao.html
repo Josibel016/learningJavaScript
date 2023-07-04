@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br><br>");
+
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+    var numeroPensado = Math.round(Math.random()*10);
+    console.log(numeroPensado);
+    var chute = parseInt(prompt("digite seu chute"));
+
+    if(chute == numeroPensado){ 
+        mostra("voce acertou!");
+    }
+
+    else {
+        mostra("voce errou");
+    }    
+
+    var senha = prompt("digite sua senha");
+
+    if(senha=="Josi"){
+        alert("acesso liberado");
+    }
+    else{
+        alert("acesso negado")
+    }
+
+
+</script>
